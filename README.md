@@ -1,6 +1,28 @@
-# EasyLinks
 
-## Set up and contribute in SUDOKU
+<div align="center"> <img align="center" alt="dschackfest" src="https://user-images.githubusercontent.com/42115530/94295926-a5741880-ff7f-11ea-890b-39ad20ac0f21.png" height='150' width='350'></div>
+
+# 📱EasyLinks🔗
+[![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/EasyLinks)](https://github.com/DSC-JSS-NOIDA/EasyLinks/issues)
+[![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/EasyLinks)](https://github.com/DSC-JSS-NOIDA/EasyLinks/pulls)
+[![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
+[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
+
+#### An Open Source App which enables users to drop all their professional handles and projects at one place. This is a Beginner Friendly Repository made for Open Source Enthusiasts who can contribute to the App during HacktoberFest 2021.
+
+## Features✨
+- User can share their various platforms' handles.
+- User can add their projects with heading and description.
+- User can search other user's profile.
+- User can get a shareable link for their profiles.
+
+## Tech to be used🛠️
+- Android SDK
+- Kotlin
+- Firebase
+- Deep linking
+
+## Set up and contribute in EasyLinks⚙️
+
 ### 1. Star and Fork this Repository
 ###### You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
 
