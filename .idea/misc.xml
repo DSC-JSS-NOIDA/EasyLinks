@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/EasyLinks2/app/src/main/res/layout/activity_login_signup.xml" value="0.24322916666666666" />
+        <entry key="..\:/EasyLinks/app/src/main/res/drawable/ic_search.xml" value="0.2677083333333333" />
+        <entry key="..\:/EasyLinks/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/EasyLinks/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2515625" />
       </map>
     </option>
   </component>

@@ -1,9 +1,9 @@
-package com.gdsc_jss.easylinks
+package com.gdsc_jss.easylinks.Activites
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import com.gdsc_jss.easylinks.Fragments.LoginFragment
+import com.gdsc_jss.easylinks.R
 
 class LoginSignupActivity : AppCompatActivity() {
     val fragmentManager = supportFragmentManager
