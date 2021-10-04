@@ -1,10 +1,10 @@
 
-<div align="center"> <img align="center" alt="dschackfest" src="https://user-images.githubusercontent.com/42115530/94295926-a5741880-ff7f-11ea-890b-39ad20ac0f21.png" height='150' width='350'></div>
+<div align="center"> <img align="center" alt="dschackfest" src="https://res.cloudinary.com/de4by5q8o/image/upload/v1633197681/hackfest2021_ocjn5n.svg" height='150' width='350'></div>
 
 # 📱EasyLinks🔗
 [![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/EasyLinks)](https://github.com/DSC-JSS-NOIDA/EasyLinks/issues)
 [![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/EasyLinks)](https://github.com/DSC-JSS-NOIDA/EasyLinks/pulls)
-[![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
+[![Maintenance](https://img.shields.io/maintenance/yes/2021?color=orange&logo=github)](https://github.com/DSC-JSS-NOIDA/)
 [![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
 
 #### An Open Source App which enables users to drop all their professional handles and projects at one place. This is a Beginner Friendly Repository made for Open Source Enthusiasts who can contribute to the App during HacktoberFest 2021.
@@ -134,7 +134,7 @@ To sync your fork, from the directory of your local repository in a terminal win
 ###### Need help? Feel free to contact us @ [dscjssnoida@gmail.com](mailto:dscjssnoida@gmail.com)
 ## Connect with us
 <div align="center">
- <a href="https://dscjss.in/"><img src="https://user-images.githubusercontent.com/42115530/94302134-5c28c680-ff89-11ea-9ca4-5dcdd4279786.png"  height=100px /></a> <br><br> 
+ <a href="https://dscjss.in/"><img src="https://raw.githubusercontent.com/DSC-JSS-NOIDA/QuickLearn/main/assets/images/gdsc-logo.png"  height=100px /></a> <br><br> 
 <a href="https://github.com/DSC-JSS-NOIDA" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
