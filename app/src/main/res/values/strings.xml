@@ -3,4 +3,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="profile">Profile</string>
     <string name="search">Search</string>
+    <string name="search_title">search_bar</string>
 </resources>
