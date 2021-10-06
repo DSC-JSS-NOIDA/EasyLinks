@@ -1,4 +1,4 @@
-package com.gdsc_jss.easylinks.Fragments
+package com.gdsc_jss.easylinks.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
-import com.gdsc_jss.easylinks.Activites.MainActivity
+import com.gdsc_jss.easylinks.activities.MainActivity
 import com.gdsc_jss.easylinks.R
 
 
@@ -40,6 +40,7 @@ class LoginFragment : Fragment() {
         }
         loginBtn.setOnClickListener{
             startActivity(Intent(requireContext(), MainActivity::class.java))
+            activity?.finish()
         }
     }
 }

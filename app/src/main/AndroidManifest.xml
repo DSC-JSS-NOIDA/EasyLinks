@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLinks">
         <activity
-            android:name=".Activites.LoginSignupActivity"
+            android:name=".activities.AuthActivity"
             android:exported="true" />
-        <activity android:name=".Activites.SplashActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activites.MainActivity"></activity>
+        <activity android:name=".activities.MainActivity" />
     </application>
 
 </manifest>
