@@ -1,4 +1,4 @@
-package com.gdsc_jss.easylinks.Activites
+package com.gdsc_jss.easylinks.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
-           val intent = Intent(applicationContext, LoginSignupActivity::class.java)
+           val intent = Intent(applicationContext, AuthActivity::class.java)
            startActivity(intent)
             finish()
         }, SPLASH_TIME.toLong())

@@ -1,4 +1,4 @@
-package com.gdsc_jss.easylinks.Activites
+package com.gdsc_jss.easylinks.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
