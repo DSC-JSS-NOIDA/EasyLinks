@@ -8,15 +8,11 @@ import android.os.Looper
 import com.gdsc_jss.easylinks.R
 
 class SplashActivity : AppCompatActivity() {
-    private val SPLASH_TIME = 1500
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
 
-        Handler(Looper.getMainLooper()).postDelayed({
-           val intent = Intent(applicationContext, AuthActivity::class.java)
-           startActivity(intent)
-            finish()
-        }, SPLASH_TIME.toLong())
+        val intent = Intent(applicationContext, AuthActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
