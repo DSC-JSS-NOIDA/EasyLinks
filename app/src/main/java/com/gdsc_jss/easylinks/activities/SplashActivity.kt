@@ -11,8 +11,12 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val intent = Intent(applicationContext, AuthActivity::class.java)
-        startActivity(intent)
-        finish()
+        Handler(Looper.getMainLooper()).postDelayed({
+                val intent = Intent(applicationContext, AuthActivity::class.java)
+                startActivity(intent)
+                finish()
+            },
+            2000L
+        )
     }
 }
