@@ -2,44 +2,101 @@ package com.gdsc_jss.easylinks.fragments
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.TextUtils
+import android.util.Patterns
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.TextView
+import android.widget.Toast
 import com.gdsc_jss.easylinks.activities.MainActivity
 import com.gdsc_jss.easylinks.R
-
+import com.gdsc_jss.easylinks.databinding.FragmentSignupBinding
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+import com.google.firebase.auth.FirebaseAuthUserCollisionException
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException
 
 class SignupFragment : Fragment() {
 
-    private lateinit var loginBtn : TextView
-    private lateinit var signup : Button
+    private var binding: FragmentSignupBinding? = null
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_signup, container, false)
-
-        loginBtn = view.findViewById(R.id.login)
-        signup = view.findViewById(R.id.btnCreate)
-
-        return view
+        binding = FragmentSignupBinding.inflate(inflater, container, false)
+        return binding?.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        auth = FirebaseAuth.getInstance()
 
-        loginBtn.setOnClickListener {
+        binding?.login?.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
                 ?.replace(R.id.fragment_container, LoginFragment())
                 ?.commit()
         }
-        signup.setOnClickListener{
+        binding?.btnCreate?.setOnClickListener{
+            val email = binding?.emailSignup?.text.toString()
+            val password = binding?.passwordSignup?.text.toString()
+            if (validation(email, password)) {
+                auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(requireActivity()) {
+                    if (it.isSuccessful) {
+                        Toast.makeText(context, "Success SignUp", Toast.LENGTH_SHORT).show()
+                    } else {
+                        try {
+                            throw it.exception!!
+                        } catch (e: FirebaseAuthWeakPasswordException) {
+                            Toast.makeText(context, "Password too simple", Toast.LENGTH_SHORT)
+                                .show()
+                        } catch (e: FirebaseAuthInvalidCredentialsException) {
+                            Toast.makeText(context, "Email is not valid", Toast.LENGTH_SHORT).show()
+                        } catch (e: FirebaseAuthUserCollisionException) {
+                            Toast.makeText(
+                                context,
+                                "Email already used",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        } catch (e: Exception) {
+                            Toast.makeText(
+                                context,
+                                "failed signup",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+                    }
+                }
+            }
+
             startActivity(Intent(requireContext(), MainActivity::class.java))
         }
+    }
+
+    private fun validation(
+        email: String,
+        password: String
+    ): Boolean = when {
+        TextUtils.isEmpty(email) -> {
+            Toast.makeText(context, "Email cant be empty", Toast.LENGTH_SHORT).show()
+            false
+        }
+        TextUtils.isEmpty(password) -> {
+            binding?.passwordSignup?.error = "password empty"
+            Toast.makeText(context, "Password cant be empty", Toast.LENGTH_SHORT).show()
+            false
+        }
+        !Patterns.EMAIL_ADDRESS.matcher(email).matches() -> {
+            Toast.makeText(context, "isn't email format", Toast.LENGTH_SHORT).show()
+            false
+        }
+        else -> true
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 }
