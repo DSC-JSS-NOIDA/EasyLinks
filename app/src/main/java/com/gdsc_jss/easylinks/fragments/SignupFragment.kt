@@ -1,6 +1,9 @@
 package com.gdsc_jss.easylinks.fragments
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.LinearGradient
+import android.graphics.Shader
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
@@ -27,6 +30,18 @@ class SignupFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentSignupBinding.inflate(inflater, container, false)
+
+        val paint = binding!!.signupLabel.paint
+        val width = paint.measureText(binding!!.signupLabel.text.toString())
+        val textShader: Shader = LinearGradient(0f, 0f, width, binding!!.signupLabel.textSize, intArrayOf(
+            Color.parseColor("#3070F0"),
+            Color.parseColor("#2ABED8")
+        ), null, Shader.TileMode.CLAMP)
+
+
+        binding!!.signupLabel.paint.setShader(textShader)
+        binding!!.footer.paint.setShader(textShader)
+
         return binding?.root
     }
 
