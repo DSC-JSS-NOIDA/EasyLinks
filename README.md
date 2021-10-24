@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/EasyLinks)](https://github.com/DSC-JSS-NOIDA/EasyLinks/issues)
 [![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/EasyLinks)](https://github.com/DSC-JSS-NOIDA/EasyLinks/pulls)
 [![Maintenance](https://img.shields.io/maintenance/yes/2021?color=orange&logo=github)](https://github.com/DSC-JSS-NOIDA/)
-[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
+[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/EasyLinks?style=social)](https://github.com/DSC-JSS-NOIDA/EasyLinks) [![Twitter Follow](https://img.shields.io/twitter/follow/GDSCJSSATEN?style=social)](https://twitter.com/GDSCJSSATEN)
 
 #### An Open Source App which enables users to drop all their professional handles and projects at one place. This is a Beginner Friendly Repository made for Open Source Enthusiasts who can contribute to the App during HacktoberFest 2021.
 
