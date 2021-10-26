@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/splash_gradient"
     tools:context=".activities.SplashActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/splash_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EasyLinks"
-        android:layout_centerInParent="true"
-        android:textColor="@color/teal_700"
-        android:textSize="36sp"/>
+        android:src="@drawable/light_transparent_icon"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
