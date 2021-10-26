@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/EasyLinks/app/src/main/res/drawable/ic_search.xml" value="0.2677083333333333" />
+        <entry key="..\:/EasyLinks/app/src/main/res/drawable/splash_gradient.xml" value="0.25277777777777777" />
+        <entry key="..\:/EasyLinks/app/src/main/res/drawable/splash_logo.xml" value="0.25277777777777777" />
         <entry key="..\:/EasyLinks/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/EasyLinks/app/src/main/res/layout/activity_splash.xml" value="0.2064814814814815" />
         <entry key="..\:/EasyLinks/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2515625" />
       </map>
     </option>

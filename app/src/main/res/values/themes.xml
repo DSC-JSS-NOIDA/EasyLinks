@@ -14,7 +14,8 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="splashScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-            <item name="android:windowBackground">@drawable/splash_logo</item>
-        </style>
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_blue</item>
+    </style>
+
 </resources>
