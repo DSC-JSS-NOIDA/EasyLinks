@@ -84,9 +84,8 @@ class SignupFragment : Fragment() {
                         }
                     }
                 }
+                startActivity(Intent(requireContext(), MainActivity::class.java))
             }
-
-            startActivity(Intent(requireContext(), MainActivity::class.java))
         }
     }
 
