@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLinks">
+        <activity android:name=".activities.EditProfileActivity"></activity>
         <activity
             android:name=".activities.AuthActivity"
             android:exported="true" />
-        <activity android:name=".activities.SplashActivity" android:theme="@style/splashScreenTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/splashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
