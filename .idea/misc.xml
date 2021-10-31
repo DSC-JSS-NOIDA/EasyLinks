@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/drawable/edit_text_bg.xml" value="0.2604166666666667" />
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/drawable/upload_bg.xml" value="0.2604166666666667" />
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/layout/activity_edit_profile.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/layout/activity_main.xml" value="0.24427083333333333" />
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/layout/edit_text_bg.xml" value="1.050986842105263" />
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/layout/fragment_profile.xml" value="0.24427083333333333" />
+        <entry key="..\:/AndroidStudioProjects/EasyLinks/app/src/main/res/menu/option_menu.xml" value="0.24427083333333333" />
         <entry key="..\:/EasyLinks/app/src/main/res/drawable/ic_search.xml" value="0.2677083333333333" />
         <entry key="..\:/EasyLinks/app/src/main/res/drawable/splash_gradient.xml" value="0.25277777777777777" />
         <entry key="..\:/EasyLinks/app/src/main/res/drawable/splash_logo.xml" value="0.25277777777777777" />
@@ -12,7 +19,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
