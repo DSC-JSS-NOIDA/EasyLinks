@@ -79,6 +79,7 @@ class SignupFragment : Fragment() {
                         createUserInFirestoreDB(user)
                         Toast.makeText(context, "Success SignUp", Toast.LENGTH_SHORT).show()
                         startActivity(Intent(requireContext(), MainActivity::class.java))
+                        activity?.finish()
                     } else {
                         binding?.btnCreate?.isEnabled = true
                         binding?.btnCreate?.text = "Sign up"

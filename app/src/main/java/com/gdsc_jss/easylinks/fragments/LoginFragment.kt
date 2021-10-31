@@ -82,6 +82,7 @@ class LoginFragment : Fragment() {
     private fun openMainActivity() {
         Toast.makeText(requireContext(), "Welcome!", Toast.LENGTH_SHORT).show()
         startActivity(Intent(requireContext(), MainActivity::class.java))
+        activity?.finish()
     }
 }
 
