@@ -3,4 +3,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="profile">Profile</string>
     <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="add_link">Add link</string>
+    <string name="Login">Login</string>
 </resources>
