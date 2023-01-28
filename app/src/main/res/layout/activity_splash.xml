@@ -11,7 +11,7 @@
         android:id="@+id/splash_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/light_transparent_icon"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:src="@drawable/light_transparent_icon" />
 
 </RelativeLayout>
